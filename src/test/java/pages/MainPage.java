@@ -21,6 +21,8 @@ public class MainPage {
 
     @FindBy(xpath = "//input[@class='V8wbcUhU']")
     public WebElement searchBox;
+    @FindBy(xpath = "//button[.='Tümünü Reddet']")
+    public WebElement rejectButton;
 
 
     public MainPage(){
